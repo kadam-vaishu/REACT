@@ -1,0 +1,25 @@
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  background: #f4f4f4;
+  margin: 0;
+  padding: 30px;
+}
+
+h1 {
+  color: #333;
+}
+
+div {
+  max-width: 700px;
+  margin: auto;
+}
+
+a {
+  text-decoration: none;
+  color: blue;
+  font-weight: bold;
+}
+
+a:hover {
+  color: darkblue;
+}

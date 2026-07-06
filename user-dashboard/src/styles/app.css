@@ -1,0 +1,28 @@
+.app {
+  font-family: Arial, sans-serif;
+  padding: 20px;
+  text-align: center;
+}
+
+.search-box input {
+  padding: 10px;
+  width: 250px;
+  margin-bottom: 20px;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 15px;
+}
+
+.card {
+  background: #f4f4f4;
+  padding: 15px;
+  border-radius: 10px;
+  transition: 0.2s ease;
+}
+
+.card:hover {
+  transform: scale(1.03);
+}
